@@ -11,5 +11,5 @@ RUN \
 EXPOSE 8545
 EXPOSE 30303
 
-CMD ["--fast","--cache=512","--rpc","--rpcport '8545'","--rpcaddr '0.0.0.0'","--rpccorsdomain '*'"]
+CMD [" --fast --cache=512 --rpc --rpcport '8545' --rpcaddr '0.0.0.0' --rpccorsdomain '*'"]
 ENTRYPOINT ["/geth"]
